@@ -136,8 +136,6 @@ int main(){
 
     std::sort(days, days + numDays);
 
-    for(int i = 0; i < numDays; i++){
-    }
     for (int dayIndex = 0; dayIndex < numDays; dayIndex++){
         for(int job = 0; job < numJobs; job++){
             if(days[dayIndex].day >= jobs[job].start && days[dayIndex].day <= jobs[job].end){
